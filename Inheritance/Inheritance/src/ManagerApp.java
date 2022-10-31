@@ -11,6 +11,8 @@ public class ManagerApp {
      * Untuk melakukan pewarisan di class child kita harus mengggunakan kata kunci extends lalu diikuti dengan nama class parent nya.
      * 
      */
+
+     
         var Manager = new Manager();
         Manager.name = "Eko";
         Manager.sayHelloo("Budi");
