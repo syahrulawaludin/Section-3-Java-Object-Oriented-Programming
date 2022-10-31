@@ -28,13 +28,13 @@ public class Person {
 
     }
     // Methos sayhello
-    void sayHello(String paramName){
+    void sayHello(String name){
         System.out.println("Hello " + name + ", My name is " + this.name);
 
     }
 
     // Method sayGoodBye 
-    void sayGoodBye(String paramName){
+    void sayGoodBye(String name){
         System.out.println("Hello " + name + ", See you " + this.name);
 
     }
