@@ -31,6 +31,16 @@ public class PersonApp {
         Person person4 = new Person();
         person4.name = "Ridwan";
         person4.sayHello(" Romy");
+
+
+
+        // Method 2
+
+        person1.sayGoodBye("Angga");
+        person2.sayGoodBye("Rifqi");
+        person3.sayGoodBye("Rigan");
+        person4.sayGoodBye("Heiwa");
+
        
      }
     

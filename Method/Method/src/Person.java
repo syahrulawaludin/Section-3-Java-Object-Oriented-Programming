@@ -6,7 +6,12 @@ public class Person {
 
     // Methos sayhello
     void sayHello(String paramName){
-        System.out.println("Hello" + paramName + ", My name is " + name);
+        System.out.println("Hello " + paramName + ", My name is " + name);
+
+    }
+
+    void sayGoodBye(String paramName){
+        System.out.println("Hello " + paramName + ", See you " + name);
 
     }
     
