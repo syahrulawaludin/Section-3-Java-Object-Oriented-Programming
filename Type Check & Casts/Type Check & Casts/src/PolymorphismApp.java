@@ -28,6 +28,13 @@ public class PolymorphismApp {
 
      static void sayHelloo(Employee employee){
 
+      // Type check & Casts
+      /*
+       * Sebelumnya kita sudah tau cara melalukan konversi tipe dara (cats) di tipe data  primitif
+       * Casts juga  bisa digunakan untuk tipe data  bukan primitif
+       * Namun agar aman, sebelum melakukan casts, pastikan kita melakukan type check (pengecekan type data), dengan menggunakan kata kunci instanceof
+       * Hasil operator instanceof adalah boolean, terus jika tipe data sesuai, false jika tidak sesuai
+       */
       if(employee instanceof vicePresident){
          vicePresident vicePresident = (vicePresident) employee;
          System.out.println("Hello VP" + vicePresident.name);
