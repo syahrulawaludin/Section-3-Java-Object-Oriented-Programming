@@ -3,7 +3,7 @@ public class ManagerApp {
     public static void main(String[] args) {
         
 
-         //  Inheritance
+    //  Inheritance
     /* Iheritance atau pewarisan adalah kemampuan untuk menurunkan sebuah class ke class lain
     dalam artian, kita bisa membuat class Parent dan class Child
      * Class child , hanya bisa punya satu class paent, namun satu class parent bisa punya banyak class child
